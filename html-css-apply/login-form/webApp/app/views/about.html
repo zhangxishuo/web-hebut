@@ -1,0 +1,53 @@
+<h2 class="text-center" style="margin-bottom: 30px;">申请表单</h2>
+<form class="form-horizontal" name="applyForm">
+    <div class="form-group">
+        <label for="place" class="col-sm-2 control-label">希望工作地点</label>
+        <div class="col-sm-10">
+            <select ng-model="data.place" name="place" id="place" class="form-control" required>
+                <option>北京</option>
+                <option>天津</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="wages" class="col-sm-2 control-label">工资要求</label>
+        <div class="col-sm-10">
+            <input ng-model="data.wages" name="wages" type="text" class="form-control" id="wages" placeholder="工资要求" required>
+            <p style="margin-top: 15px;" class="text-danger" ng-show="applyForm.wages.$invalid && applyForm.wages.$touched">
+                <i class="glyphicon glyphicon-remove"></i>
+                请输入工资要求
+            </p>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input ng-model="data.house" type="checkbox">
+                    要求提供过渡住房
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="vocation" class="col-sm-2 control-label">应聘行业</label>
+        <div class="col-sm-10">
+            <select ng-model="data.vocation" name="vocation" id="vocation" multiple class="form-control" required>
+                <option>计算机软件</option>
+                <option>计算机硬件</option>
+                <option>计算机服务</option>
+                <option>通信/电信/网络设备</option>
+                <option>互联网/电子商务</option>
+                <option>网络游戏</option>
+                <option>电子技术/半导体/集成电路</option>
+                <option>仪器仪表/工业自动化</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default" ng-disabled="applyForm.$invalid">提交</button>
+            <button type="reset" class="btn btn-primary pull-right">重置</button>
+        </div>
+    </div>
+</form>

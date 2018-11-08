@@ -1,0 +1,39 @@
+[{
+    "id": 160001,
+    "name": "zhangsan",
+    "score": 100,
+    "courses": [{
+        "name": "web"
+    }, {
+        "name": "html"
+    }, {
+        "name": "json"
+    }]
+}, {
+    "id": 160002,
+    "name": "lisi",
+    "score": 98,
+    "courses": [{
+        "name": "python"
+    }, {
+        "name": "rfid"
+    }]
+}, {
+    "id": 160003,
+    "name": "wangwu",
+    "score": 80,
+    "courses": [{
+        "name": "web"
+    }, {
+        "name": "spring"
+    }]
+}, {
+    "id": 160004,
+    "name": "wangwu",
+    "score": 80,
+    "courses": [{
+        "name": "web"
+    }, {
+        "name": "spring"
+    }]
+}]
