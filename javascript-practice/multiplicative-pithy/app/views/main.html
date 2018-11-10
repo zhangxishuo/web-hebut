@@ -1,0 +1,14 @@
+<div class="row" style="margin-bottom: 80px;">
+    <div class="col-md-10">
+        <input class="form-control" type="number" ng-model="max" />
+    </div>
+    <div class="col-md-2">
+        <button ng-click="reload(max)" class="btn btn-default">重新渲染</button>
+    </div>
+</div>
+
+<p ng-repeat="(key, object) in data">
+    <span class="text-info" ng-repeat="(index, value) in object" style="margin: 6px;">
+        {{ index + 1 }} * {{ key + 1 }} = {{ data[key][index] }}
+    </span>
+</p>
