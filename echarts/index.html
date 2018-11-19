@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="web">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>数据可视化</title>
+</head>
+
+<body ng-controller="mainCtrl" class="container">
+    <h2 class="text-center">数据可视化</h2>
+    <div class="text-center">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default" ng-click="activeType('line')" ng-class="{'btn-success': activeOrNot('line')}">折线图</button>
+            <button type="button" class="btn btn-default" ng-click="activeType('bar')" ng-class="{'btn-success': activeOrNot('bar')}">柱状图</button>
+            <button type="button" class="btn btn-default" ng-click="activeType('effectScatter')" ng-class="{'btn-success': activeOrNot('effectScatter')}">散点图</button>
+        </div>
+    </div>
+    <div id="app" style="width: 1170px; height: 700px;"></div>
+</body>
+<script src="node_modules/echarts/dist/echarts.js"></script>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="scripts/main.js"></script>
+
+</html>
