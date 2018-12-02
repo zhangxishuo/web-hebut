@@ -6,11 +6,11 @@
 
 ### 博客风格网页
 
-![博客风格网页](layout/assets/effect.png)
+![博客风格网页](html-css-apply/layout/assets/effect.png)
 
 ### 跨行表格与动态柱状图
 
-![跨行表格与动态柱状图](table/assets/effect.png)
+![跨行表格与动态柱状图](html-css-apply/table/assets/effect.png)
 
 ## 实验二 `JavaScript`实践
 
