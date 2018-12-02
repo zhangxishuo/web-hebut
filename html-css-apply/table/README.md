@@ -2,6 +2,8 @@
 
 ![最终效果](assets/effect.png)
 
+使用`Bootstrap`框架实现基本布局。
+
 使用`AngularJS`框架，实现双向数据绑定，完成数据与视图绑定。
 
 使用`Ajax`技术请求`Json`数据，将数据解析渲染到视图中。
