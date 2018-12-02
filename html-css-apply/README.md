@@ -7,3 +7,7 @@
 ### 博客风格网页
 
 ![博客风格网页](layout/assets/effect.png)
+
+### 跨行表格与动态柱状图
+
+![跨行表格与动态柱状图](table/assets/effect.png)
