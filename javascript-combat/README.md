@@ -14,6 +14,8 @@
 
 ### 表单校验
 
+![表单校验](form-validate/assets/effect.png)
+
 ### 显示选中项内容
 
 ### 简易网站
