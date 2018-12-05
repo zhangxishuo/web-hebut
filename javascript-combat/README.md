@@ -18,4 +18,6 @@
 
 ### 显示选中项内容
 
+![显示选中项内容](event-react/assets/effect.png)
+
 ### 简易网站
